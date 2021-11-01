@@ -1,0 +1,63 @@
+/* COLORS */
+body {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+  }
+  
+  .Svg {
+    background: white;
+    box-sizing: border-box;
+    height: 80vh;
+    width: 100vw;
+    max-width: calc(100vw);
+  }
+  
+  .polygon {
+    stroke: #a08c8b;
+    stroke-width: 1;
+  }
+
+  .polygon-area{
+    fill-opacity: 0.6;
+  }
+  
+  .circle {
+    fill: #052338;
+    stroke: #ff7474;
+    stroke-width: 2;
+  }
+  
+  .App-line {
+    opacity: 0.8;
+    stroke: #a08c8b;
+  }
+  
+  .diagram-text{
+    font-size: 0.5rem;
+    fill: #7a7070;
+    cursor: pointer;
+  }
+
+  .diagram-text:hover{
+    text-decoration-line: underline;
+    fill: blue;
+    font-weight: bold;
+  }
+
+  .diagram-text.active{
+    text-decoration-line: underline;
+    fill: rgb(43, 43, 197);
+    font-weight: bold;
+  }
+  .center-text{
+    text-align: center;
+  }
+
+  .diagram-text-selected{
+    border: 2px solid rgb(43, 43, 197);
+    border-radius: 7px;
+    color: rgb(43, 43, 197);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+  }
