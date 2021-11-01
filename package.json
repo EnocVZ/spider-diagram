@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "set APP_ENV=DEV&& set NODE_ENV=production&& set PORT=9000&& node ./src/server/server.js",
+    "start": "set APP_ENV=PRO&& set NODE_ENV=production&& set PORT=9000&& node ./src/server/server.js",
     "build": "webpack --mode production --devtool false",
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "server": "set APP_ENV=DEV&& set NODE_ENV=development&& set PORT=9000&& nodemon ./src/server/server.js",
